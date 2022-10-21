@@ -6,12 +6,12 @@ int main()
 {
     double x;
     double y;
+    
     printf("Enter x:");
     scanf("%lf", &x);
     if (-10.5<=x && x<8.125)
     {
         y= sqrt(abs(x + 2)) + abs(cos(x))/2;
-
     }
 
     else if(10<=x && x<15)
@@ -28,9 +28,10 @@ int main()
     {
         y=-1.5;
     }
-
-  printf("\ny = %lf", y);
-
+  system("cls");
+     printf("\ny = %lf", y);
+    
+  return 0;
 }
 
 
